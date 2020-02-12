@@ -1,6 +1,6 @@
 import ftpllib
 
-host = '172.0.0.1'
+host = input("Specify your target IP: ")
 wordlist = input("Specify your wordlist path: ")
 
 def ssh_brute():
