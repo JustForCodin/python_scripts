@@ -3,9 +3,6 @@ import ftpllib
 host = input("Specify your target IP: ")
 wordlist = input("Specify your wordlist path: ")
 
-def ssh_brute():
-	pass
-
 def ftp_brute(host, wordlist):
 	initialized = False
 	try:
